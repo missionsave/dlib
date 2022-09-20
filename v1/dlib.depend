@@ -1,0 +1,955 @@
+# depslib dependency file v1.0
+1473426777 source:/media/mydata/Mpm/lib/fl_editor.cpp
+	"fl_editor.hpp"
+	<FL/fl_draw.H>
+	<FL/fl_ask.H>
+	"stringf.hpp"
+	<unordered_map>
+
+1462620924 /media/mydata/Mpm/lib/fl_editor.hpp
+	"regular.hpp"
+	<FL/Fl.H>
+	<FL/Fl_Menu.H>
+	<FL/Fl_Text_Editor.H>
+
+1532374008 /media/mydata/Mpm/lib/regular.hpp
+	<vector>
+	<string>
+	<boost/predef.h>
+	"Escape_Sequences_Colors.h"
+
+1471953502 /media/mydata/Mpm/lib/Escape_Sequences_Colors.h
+
+1472741808 /media/mydata/Mpm/lib/stringf.hpp
+	<regular.hpp>
+	"configuru.hpp"
+
+1532355267 /media/mydata/Mpm/lib/configuru.hpp
+	<configuru.hpp>
+	<algorithm>
+	<array>
+	<atomic>
+	<cmath>
+	<cstddef>
+	<cstring>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<map>
+	<memory>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	<cassert>
+	<configuru.hpp>
+	<algorithm>
+	<limits>
+	<ostream>
+	<cerrno>
+	<cstdlib>
+	<cstdlib>
+
+1460833450 source:/media/mydata/Mpm/lib/ohlcGlWindow.cpp
+	<functional>
+	<glview.hpp>
+	<ohlcs.hpp>
+	"fl.hpp"
+	"ohlcGlWindow.hpp"
+
+1470848138 /media/mydata/Mpm/lib/fl.hpp
+	"regular.hpp"
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Gl_Window.H>
+	<FL/Fl_Button.H>
+	<FL/Fl_Light_Button.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Secret_Input.H>
+	<FL/Fl_Browser.H>
+	<FL/Fl_Hold_Browser.H>
+	<FL/fl_ask.H>
+	<FL/Fl_Help_View.H>
+	<FL/Fl_Table.H>
+	<FL/Fl_Menu.H>
+	"fl_editor.hpp"
+
+1456319888 /media/mydata/Mpm/lib/ohlcGlWindow.hpp
+	<FL/Fl_Gl_Window.H>
+	<glview.hpp>
+	<ohlcs.hpp>
+
+1460833411 source:/media/mydata/Mpm/lib/ohlcs.cpp
+	"ohlcs.hpp"
+	<algorithm>
+	"arrayf.hpp"
+	"math.hpp"
+
+1415995107 /media/mydata/Mpm/lib/ohlcs.hpp
+	<vector>
+
+1534212608 /media/mydata/Mpm/lib/arrayf.hpp
+	<regular.hpp>
+	<algorithm>
+	<numeric>
+	<map>
+
+1532275718 /media/mydata/Mpm/lib/math.hpp
+	"regular.hpp"
+	<cmath>
+
+1479479403 source:/media/mydata/Mpm/lib/algebra.cpp
+	"algebra.hpp"
+	"comb.hpp"
+	"arrayf.hpp"
+	"math.hpp"
+	<boost/unordered_map.hpp>
+	<numeric>
+
+1479479404 /media/mydata/Mpm/lib/algebra.hpp
+	"regular.hpp"
+	"algebra.hpp"
+
+1461176027 /media/mydata/Mpm/lib/comb.hpp
+	<map>
+	<vector>
+	"algebra.hpp"
+
+1520029387 source:/media/mydata/Mpm/lib/arrayf.cpp
+	"arrayf.hpp"
+	"stringf.hpp"
+	<algorithm>
+	<sstream>
+
+1533837181 source:/media/mydata/Mpm/lib/comb.cpp
+	"regular.hpp"
+	"comb.hpp"
+	<math.hpp>
+	<arrayf.hpp>
+	<bitset>
+
+1471815823 source:/media/mydata/Mpm/lib/configuru.cpp
+	<configuru.hpp>
+
+1468859746 source:/media/mydata/Mpm/lib/filesystem.cpp
+	"regular.hpp"
+	"filesystem.hpp"
+	"math.hpp"
+	"stringf.hpp"
+	"arrayf.hpp"
+	<boost/filesystem.hpp>
+	<boost/interprocess/file_mapping.hpp>
+	<boost/interprocess/mapped_region.hpp>
+	<regex>
+	<boost/predef.h>
+	<vector>
+	<iostream>
+	<sstream>
+	<fstream>
+	<direct.h>
+	<windows.h>
+	<shellapi.h>
+	<wininet.h>
+	<unzip.h>
+	"FL\fl_utf8.h"
+	<limits.h>
+	<unistd.h>
+	<stringf.hpp>
+
+1470862267 /media/mydata/Mpm/lib/filesystem.hpp
+	<string>
+	<vector>
+
+1470354906 source:/media/mydata/Mpm/lib/fl.cpp
+	"regular.hpp"
+	<FL/Fl_Button.H>
+	<FL/Fl.H>
+	<FL/x.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Browser.H>
+	<FL/fl_draw.H>
+	<FL/names.h>
+	"fl.hpp"
+	<FL/Fl_Multiline_Output.H>
+	<FL/Fl_Menu.H>
+	<FL/Fl_Native_File_Chooser.H>
+	<boost/predef.h>
+	"stringf.hpp"
+
+1531952171 source:/media/mydata/Mpm/lib/flgl.cpp
+	"fl.hpp"
+	<functional>
+	<typeinfo>
+	<unordered_map>
+	<glview.hpp>
+	<FL/Fl_Gl_Window.H>
+	<FL/gl.h>
+	"threads.hpp"
+	<flgl.hpp>
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Gl_Window.H>
+	<FL/x.H>
+	<algorithm>
+
+1460785577 /media/mydata/Mpm/lib/threads.hpp
+	"regular.hpp"
+	<functional>
+
+1460765117 source:/media/mydata/Mpm/lib/flsqlite.cpp
+	"flsqlite.hpp"
+
+1450986010 /media/mydata/Mpm/lib/flsqlite.hpp
+	"fl.hpp"
+	"sqlite3.h"
+
+1462623189 /media/mydata/Mpm/lib/sqlite3.h
+	<stdarg.h>
+
+1464141792 source:/media/mydata/Mpm/lib/glview.cpp
+	<algorithm>
+	<glview.hpp>
+	<stringf.hpp>
+	<string.h>
+
+1531871618 source:/media/mydata/Mpm/lib/math.cpp
+	"math.hpp"
+	<boost/predef.h>
+	<random>
+
+1381716144 source:/media/mydata/Mpm/lib/miniz.c
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<sys/stat.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<utime.h>
+	<utime.h>
+
+1496884736 source:/media/mydata/Mpm/lib/neurones.cpp
+	<fstream>
+	<sstream>
+	"math.hpp"
+	"comb.hpp"
+	"arrayf.hpp"
+	<numeric>
+	"neurones.hpp"
+	<vector>
+
+1474193301 /media/mydata/Mpm/lib/neurones.hpp
+	"regular.hpp"
+
+1462648863 source:/media/mydata/Mpm/lib/regex.cpp
+	"regex.hpp"
+
+1462648845 /media/mydata/Mpm/lib/regex.hpp
+
+1531866233 source:/media/mydata/Mpm/lib/regular.cpp
+	"regular.hpp"
+	<sstream>
+	<cstdarg>
+
+1532478939 source:/media/mydata/Mpm/lib/serialize.cpp
+	"serializes.hpp"
+	<vector>
+	<sstream>
+	<fstream>
+	<unordered_map>
+	<boost/serialization/extended_type_info.hpp>
+	<boost/serialization/serialization.hpp>
+	<boost/serialization/list.hpp>
+	<boost/serialization/vector.hpp>
+	<boost/serialization/unordered_map.hpp>
+	<boost/archive/text_iarchive.hpp>
+	<boost/archive/text_oarchive.hpp>
+	<boost/archive/binary_iarchive.hpp>
+	<boost/archive/binary_oarchive.hpp>
+	<boost/iostreams/filtering_streambuf.hpp>
+	<boost/iostreams/filter/bzip2.hpp>
+	<boost/iostreams/copy.hpp>
+
+1532478939 /media/mydata/Mpm/lib/serializes.hpp
+	"serialize.hpp"
+	<boost/serialization/serialization.hpp>
+	<boost/serialization/unordered_map.hpp>
+	<boost/serialization/vector.hpp>
+	<boost/archive/text_iarchive.hpp>
+	<boost/archive/text_oarchive.hpp>
+	<boost/archive/binary_iarchive.hpp>
+	<boost/archive/binary_oarchive.hpp>
+	<boost/iostreams/filtering_stream.hpp>
+	<boost/iostreams/filter/bzip2.hpp>
+	<boost/iostreams/filter/gzip.hpp>
+	<boost/iostreams/copy.hpp>
+	"serializes.hpp"
+
+1460752950 /media/mydata/Mpm/lib/serialize.hpp
+	<string>
+	"regular.hpp"
+	<fstream>
+	<functional>
+
+1438906405 source:/media/mydata/Mpm/lib/sqlite.cpp
+	"sqlite.hpp"
+
+1438904842 /media/mydata/Mpm/lib/sqlite.hpp
+	"regular.hpp"
+	"sqlite3.h"
+
+1462623188 source:/media/mydata/Mpm/lib/sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1503022760 source:/media/mydata/Mpm/lib/ssh.cpp
+	"ssh.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	<string.h>
+	<libssh2.h>
+	<libssh2_sftp.h>
+	<sys/types.h>
+	<fcntl.h>
+	<errno.h>
+	<stdio.h>
+	<ctype.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<iostream>
+	<sstream>
+	<unordered_map>
+	"zip.hpp"
+	<boost/filesystem.hpp>
+	<fstream>
+	<boost/asio.hpp>
+
+1460528452 /media/mydata/Mpm/lib/ssh.hpp
+	"regular.hpp"
+	"stringf.hpp"
+	<libssh2.h>
+	<netinet/in.h>
+	<libssh2_sftp.h>
+
+1458503131 /media/mydata/Mpm/lib/zip.hpp
+	<regular.hpp>
+	<easylzma/compress.h>
+	<easylzma/decompress.h>
+
+1476128359 source:/media/mydata/Mpm/lib/ssl.cpp
+	"ssl.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	<openssl/conf.h>
+	<openssl/evp.h>
+	<openssl/err.h>
+	<string.h>
+	<sys/types.h>
+	<fcntl.h>
+	<errno.h>
+	<stdio.h>
+	<ctype.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<openssl/crypto.h>
+	<openssl/x509.h>
+	<openssl/pem.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<iostream>
+	<sstream>
+	<unordered_map>
+	"zip.hpp"
+	<boost/filesystem.hpp>
+	<fstream>
+
+1471464591 /media/mydata/Mpm/lib/ssl.hpp
+	"regular.hpp"
+	"stringf.hpp"
+	<netinet/in.h>
+	<openssl/ssl.h>
+
+1475526295 source:/media/mydata/Mpm/lib/stringf.cpp
+	"stringf.hpp"
+	"ssl.hpp"
+	"regular.hpp"
+	<stdarg.h>
+	<algorithm>
+	<fstream>
+	<boost/regex.hpp>
+	<boost/filesystem.hpp>
+	<Stringapiset.h>
+
+1462644088 source:/media/mydata/Mpm/lib/threads.cpp
+	"threads.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	"arrayf.hpp"
+	<fstream>
+	<stdio.h>
+	<boost/predef.h>
+	"windows.h"
+	"Wtsapi32.h"
+	<windef.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/types.h>
+	<dirent.h>
+	<boost/thread/thread.hpp>
+	<boost/thread/mutex.hpp>
+
+1458357492 source:/media/mydata/Mpm/lib/timef.cpp
+	"timef.hpp"
+	<chrono>
+	<boost/thread/thread.hpp>
+	"ssl.hpp"
+	<netdb.h>
+
+1457436162 /media/mydata/Mpm/lib/timef.hpp
+	"regular.hpp"
+	<ctime>
+
+1468768840 source:/media/mydata/Mpm/lib/zip.cpp
+	"zip.hpp"
+	<string.h>
+	<assert.h>
+	"threads.hpp"
+
+1503015560 source:c:\desk\mpm\lib\ssh.cpp
+	"ssh.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	<string.h>
+	<libssh2.h>
+	<libssh2_sftp.h>
+	<sys/types.h>
+	<fcntl.h>
+	<errno.h>
+	<stdio.h>
+	<ctype.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<iostream>
+	<sstream>
+	<unordered_map>
+	"zip.hpp"
+	<boost/filesystem.hpp>
+	<fstream>
+	<boost/asio.hpp>
+
+1460521252 c:\desk\mpm\lib\ssh.hpp
+	"regular.hpp"
+	"stringf.hpp"
+	<libssh2.h>
+	<netinet/in.h>
+	<libssh2_sftp.h>
+
+1562621276 c:\desk\mpm\lib\regular.hpp
+	<vector>
+	<string>
+	"Escape_Sequences_Colors.h"
+
+1471946302 c:\desk\mpm\lib\escape_sequences_colors.h
+
+1556045078 c:\desk\mpm\lib\stringf.hpp
+	<regular.hpp>
+	"configuru.hpp"
+
+1532348066 c:\desk\mpm\lib\configuru.hpp
+	<configuru.hpp>
+	<algorithm>
+	<array>
+	<atomic>
+	<cmath>
+	<cstddef>
+	<cstring>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<map>
+	<memory>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	<cassert>
+	<configuru.hpp>
+	<algorithm>
+	<limits>
+	<ostream>
+	<cerrno>
+	<cstdlib>
+	<cstdlib>
+
+1458499530 c:\desk\mpm\lib\zip.hpp
+	<regular.hpp>
+	<easylzma/compress.h>
+	<easylzma/decompress.h>
+
+1568939315 source:c:\desk\mpm\lib\ssl.cpp
+	"ssl.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	<openssl/conf.h>
+	<openssl/evp.h>
+	<openssl/err.h>
+	<string.h>
+	<sys/types.h>
+	<fcntl.h>
+	<errno.h>
+	<stdio.h>
+	<ctype.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<openssl/crypto.h>
+	<openssl/x509.h>
+	<openssl/pem.h>
+	<openssl/ssl.h>
+	<openssl/err.h>
+	<iostream>
+	<sstream>
+	<unordered_map>
+	"zip.hpp"
+	<boost/filesystem.hpp>
+	<fstream>
+
+1568938850 c:\desk\mpm\lib\ssl.hpp
+	"regular.hpp"
+	"stringf.hpp"
+	<winsock2.h>
+	<openssl/ssl.h>
+
+1556063360 source:c:\desk\mpm\lib\algebra.cpp
+	"algebra.hpp"
+	"comb.hpp"
+	"arrayf.hpp"
+	"math.hpp"
+	<boost/unordered_map.hpp>
+	<numeric>
+
+1479475804 c:\desk\mpm\lib\algebra.hpp
+	"regular.hpp"
+	"algebra.hpp"
+
+1461168826 c:\desk\mpm\lib\comb.hpp
+	<map>
+	<vector>
+	"algebra.hpp"
+
+1534205408 c:\desk\mpm\lib\arrayf.hpp
+	<regular.hpp>
+	<algorithm>
+	<numeric>
+	<map>
+
+1532268518 c:\desk\mpm\lib\math.hpp
+	"regular.hpp"
+	<cmath>
+
+1556743410 source:c:\desk\mpm\lib\arrayf.cpp
+	"arrayf.hpp"
+	"stringf.hpp"
+	<algorithm>
+	<sstream>
+
+1556045896 source:c:\desk\mpm\lib\comb.cpp
+	"regular.hpp"
+	"comb.hpp"
+	<math.hpp>
+	<arrayf.hpp>
+	<bitset>
+
+1471808622 source:c:\desk\mpm\lib\configuru.cpp
+	<configuru.hpp>
+
+1568494498 source:c:\desk\mpm\lib\filesystem.cpp
+	"regular.hpp"
+	"stdint.h"
+	"filesystem.hpp"
+	"math.hpp"
+	"stringf.hpp"
+	"arrayf.hpp"
+	<inttypes.h>
+	<boost/filesystem.hpp>
+	<regex>
+	<boost/predef.h>
+	<vector>
+	<iostream>
+	<sstream>
+	<fstream>
+	<windows.h>
+	<shellapi.h>
+	<wininet.h>
+	<boost/interprocess/file_mapping.hpp>
+	<boost/interprocess/mapped_region.hpp>
+	<limits.h>
+	<unistd.h>
+	<stringf.hpp>
+	<direct.h>
+	"unistd.h"
+
+1470855066 c:\desk\mpm\lib\filesystem.hpp
+	<string>
+	<vector>
+
+1568493988 source:c:\desk\mpm\lib\fl.cpp
+	"regular.hpp"
+	<FL/Fl_Button.H>
+	<FL/Fl.H>
+	<FL/x.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Browser.H>
+	<FL/fl_draw.H>
+	<FL/names.h>
+	"fl.hpp"
+	<FL/Fl_Multiline_Output.H>
+	<FL/Fl_Menu.H>
+	<FL/Fl_Native_File_Chooser.H>
+	<boost/predef.h>
+	"stringf.hpp"
+
+1470840938 c:\desk\mpm\lib\fl.hpp
+	"regular.hpp"
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Gl_Window.H>
+	<FL/Fl_Button.H>
+	<FL/Fl_Light_Button.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Secret_Input.H>
+	<FL/Fl_Browser.H>
+	<FL/Fl_Hold_Browser.H>
+	<FL/fl_ask.H>
+	<FL/Fl_Help_View.H>
+	<FL/Fl_Table.H>
+	<FL/Fl_Menu.H>
+	"fl_editor.hpp"
+
+1462613724 c:\desk\mpm\lib\fl_editor.hpp
+	"regular.hpp"
+	<FL/Fl.H>
+	<FL/Fl_Menu.H>
+	<FL/Fl_Text_Editor.H>
+
+1473419576 source:c:\desk\mpm\lib\fl_editor.cpp
+	"fl_editor.hpp"
+	<FL/fl_draw.H>
+	<FL/fl_ask.H>
+	"stringf.hpp"
+	<unordered_map>
+
+1531944970 source:c:\desk\mpm\lib\flgl.cpp
+	"fl.hpp"
+	<functional>
+	<typeinfo>
+	<unordered_map>
+	<glview.hpp>
+	<FL/Fl_Gl_Window.H>
+	<FL/gl.h>
+	"threads.hpp"
+	<flgl.hpp>
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Gl_Window.H>
+	<FL/x.H>
+	<algorithm>
+
+1460778376 c:\desk\mpm\lib\threads.hpp
+	"regular.hpp"
+	<functional>
+
+1535203572 source:c:\desk\mpm\lib\glview.cpp
+	<windef.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	<algorithm>
+	<glview.hpp>
+	<stringf.hpp>
+	<string.h>
+
+1568494920 source:c:\desk\mpm\lib\math.cpp
+	"math.hpp"
+	"timef.hpp"
+	<boost/predef.h>
+	<random>
+
+1556755882 c:\desk\mpm\lib\timef.hpp
+	"regular.hpp"
+	<ctime>
+
+1381708944 source:c:\desk\mpm\lib\miniz.c
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<sys/stat.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<utime.h>
+	<utime.h>
+
+1563033214 source:c:\desk\mpm\lib\neurones.cpp
+	<fstream>
+	<sstream>
+	"math.hpp"
+	"comb.hpp"
+	"arrayf.hpp"
+	<numeric>
+	"neurones.hpp"
+	<vector>
+
+1563033212 c:\desk\mpm\lib\neurones.hpp
+	"regular.hpp"
+
+1568773894 source:c:\desk\mpm\lib\ohlcglwindow.cpp
+	<functional>
+	<glview.hpp>
+	<ohlcs.hpp>
+	"fl.hpp"
+	"ohlcGlWindow.hpp"
+
+1456316288 c:\desk\mpm\lib\ohlcglwindow.hpp
+	<FL/Fl_Gl_Window.H>
+	<glview.hpp>
+	<ohlcs.hpp>
+
+1460826210 source:c:\desk\mpm\lib\ohlcs.cpp
+	"ohlcs.hpp"
+	<algorithm>
+	"arrayf.hpp"
+	"math.hpp"
+
+1415991506 c:\desk\mpm\lib\ohlcs.hpp
+	<vector>
+
+1462641662 source:c:\desk\mpm\lib\regex.cpp
+	"regex.hpp"
+
+1462641644 c:\desk\mpm\lib\regex.hpp
+
+1557301400 source:c:\desk\mpm\lib\regular.cpp
+	"regular.hpp"
+	<iostream>
+	<cstdarg>
+
+1532471738 source:c:\desk\mpm\lib\serialize.cpp
+	"serializes.hpp"
+	<vector>
+	<sstream>
+	<fstream>
+	<unordered_map>
+	<boost/serialization/extended_type_info.hpp>
+	<boost/serialization/serialization.hpp>
+	<boost/serialization/list.hpp>
+	<boost/serialization/vector.hpp>
+	<boost/serialization/unordered_map.hpp>
+	<boost/archive/text_iarchive.hpp>
+	<boost/archive/text_oarchive.hpp>
+	<boost/archive/binary_iarchive.hpp>
+	<boost/archive/binary_oarchive.hpp>
+	<boost/iostreams/filtering_streambuf.hpp>
+	<boost/iostreams/filter/bzip2.hpp>
+	<boost/iostreams/copy.hpp>
+
+1532471738 c:\desk\mpm\lib\serializes.hpp
+	"serialize.hpp"
+	<boost/serialization/serialization.hpp>
+	<boost/serialization/unordered_map.hpp>
+	<boost/serialization/vector.hpp>
+	<boost/archive/text_iarchive.hpp>
+	<boost/archive/text_oarchive.hpp>
+	<boost/archive/binary_iarchive.hpp>
+	<boost/archive/binary_oarchive.hpp>
+	<boost/iostreams/filtering_stream.hpp>
+	<boost/iostreams/filter/bzip2.hpp>
+	<boost/iostreams/filter/gzip.hpp>
+	<boost/iostreams/copy.hpp>
+	"serializes.hpp"
+
+1460745750 c:\desk\mpm\lib\serialize.hpp
+	<string>
+	"regular.hpp"
+	<fstream>
+	<functional>
+
+1438899204 source:c:\desk\mpm\lib\sqlite.cpp
+	"sqlite.hpp"
+
+1438897642 c:\desk\mpm\lib\sqlite.hpp
+	"regular.hpp"
+	"sqlite3.h"
+
+1462615988 c:\desk\mpm\lib\sqlite3.h
+	<stdarg.h>
+
+1462615988 source:c:\desk\mpm\lib\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1462636888 source:c:\desk\mpm\lib\threads.cpp
+	"threads.hpp"
+	"regular.hpp"
+	"stringf.hpp"
+	"arrayf.hpp"
+	<fstream>
+	<stdio.h>
+	<boost/predef.h>
+	"windows.h"
+	"Wtsapi32.h"
+	<windef.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/types.h>
+	<dirent.h>
+	<boost/thread/thread.hpp>
+	<boost/thread/mutex.hpp>
+
+1568494891 source:c:\desk\mpm\lib\timef.cpp
+	"timef.hpp"
+	<chrono>
+	<boost/thread/thread.hpp>
+	"ssl.hpp"
+	<netdb.h>
+
+1535555228 source:c:\desk\mpm\lib\stringf.cpp
+	"stringf.hpp"
+	"regular.hpp"
+	<stdarg.h>
+	<algorithm>
+	<fstream>
+	<boost/regex.hpp>
+	<boost/filesystem.hpp>
+	<Stringapiset.h>
+
